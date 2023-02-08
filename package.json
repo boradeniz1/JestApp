@@ -1,0 +1,17 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {"collectCoverage":true},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "description": ""
+}
