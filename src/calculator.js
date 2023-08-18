@@ -1,4 +1,4 @@
-const mathOperations = {
+const calculator = {
     sum: function(a,b) {
     return a + b;
     },
@@ -9,7 +9,10 @@ const mathOperations = {
     return a * b;
     },
     divide: function(a,b) {
+        if(b == 0){
+            throw new Error("Cannot divide by zero")
+        }
     return a / b;
     }
     }   
-    module.exports = mathOperations
+    module.exports = calculator
